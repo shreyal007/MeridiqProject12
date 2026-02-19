@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-19T17:26:00 IST" name="Default suite" finished-at="2026-02-19T17:26:41 IST" duration-ms="40709">
+  <suite started-at="2026-02-19T17:32:59 IST" name="Default suite" finished-at="2026-02-19T17:33:51 IST" duration-ms="52011">
     <groups>
     </groups>
-    <test started-at="2026-02-19T17:26:00 IST" name="Default test" finished-at="2026-02-19T17:26:41 IST" duration-ms="40709">
-      <class name="testLogin.TestMERIDIQLogin">
-        <test-method signature="login()[pri:1, instance:testLogin.TestMERIDIQLogin@3d680b5a]" started-at="2026-02-19T17:26:00 IST" name="login" finished-at="2026-02-19T17:26:40 IST" duration-ms="39930" status="PASS">
+    <test started-at="2026-02-19T17:32:59 IST" name="Default test" finished-at="2026-02-19T17:33:51 IST" duration-ms="52011">
+      <class name="testLogin.TestPrescriptionLogin">
+        <test-method signature="login()[pri:1, instance:testLogin.TestPrescriptionLogin@48e4374]" started-at="2026-02-19T17:32:59 IST" name="login" finished-at="2026-02-19T17:33:49 IST" duration-ms="50009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="quitBrowser()[pri:2, instance:testLogin.TestMERIDIQLogin@3d680b5a]" started-at="2026-02-19T17:26:40 IST" name="quitBrowser" finished-at="2026-02-19T17:26:41 IST" duration-ms="608" status="PASS">
+        <test-method signature="quitBrowser()[pri:2, instance:testLogin.TestPrescriptionLogin@48e4374]" started-at="2026-02-19T17:33:49 IST" name="quitBrowser" finished-at="2026-02-19T17:33:51 IST" duration-ms="1570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- testLogin.TestMERIDIQLogin -->
+      </class> <!-- testLogin.TestPrescriptionLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
