@@ -25,16 +25,16 @@ public class TestMERIDIQLogin
 		  driver.get("https://early-access.meridiq.com/");
 		  Thread.sleep(5000);
 		  
-		  driver.findElement(By.xpath("//input[@type='password']")).sendKeys("LightSaber");
+		  /*driver.findElement(By.xpath("//input[@type='password']")).sendKeys("LightSaber");
 		  Thread.sleep(3000);
 		
 		  driver.findElement(By.xpath("//button[text()='Submit']")).click();
-		  Thread.sleep(5000);
+		  Thread.sleep(5000);*/
 		  
 		  driver.findElement(By.xpath("//input[@type='email']")).sendKeys("srshah1231998@gmail.com");
 		  Thread.sleep(3000);
 		  
-		  driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Pa$$w0rd!!");
+		  driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Pa$$w0rd!!!!");
 		  Thread.sleep(3000);
 		  
 		  driver.findElement(By.xpath("//div[text()='Login Now']")).click();
