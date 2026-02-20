@@ -68,7 +68,7 @@ public class TestAddClientManually
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//div[text() = 'Submit']")).click();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		
 	}
 	
